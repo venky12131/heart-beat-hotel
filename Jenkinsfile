@@ -38,7 +38,7 @@ app = docker.build("venkyroyal121/heartbeat")
 stage('push image') {
 
  
-docker.withRegistry('https://registry.hub.docker.com', 'doc') {
+docker.withRegistry('https://registry.hub.docker.com', 'DOCK') {
 
  
 app.push("latest")
