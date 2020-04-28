@@ -26,7 +26,7 @@ mvn clean package
 stage('Build image') {
 
  
-app = docker.build("venkyroyal121/BEAT")
+app = docker.build("venkyroyal121/beat")
 
  
 }
