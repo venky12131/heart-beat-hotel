@@ -51,6 +51,28 @@ echo "trying to docker image to docker hub"
 
  
 }
+ 
+stage('build') {
+
+
+
+ 
+
+sh '''
+
+ 
+
+mvn clean package sonar:sonar
+
+ 
+
+'''
+
+
+
+ 
+
+}
 
  
  
