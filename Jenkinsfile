@@ -52,30 +52,4 @@ echo "trying to docker image to docker hub"
  
 }
  
-stage('sonarqube') {
-
-
-
- 
-
-sh '''
-
- 
-
-mvn clean package sonar:sonar
-
- 
-
-'''
-
-
-
- 
-
-}
-
- 
- 
-
- 
 }
