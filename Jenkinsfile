@@ -52,7 +52,7 @@ echo "trying to docker image to docker hub"
  
 }
  
-stage('build') {
+stage('sonarqube') {
 
 
 
