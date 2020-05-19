@@ -38,7 +38,7 @@ app = docker.build("venkyroyal121/beat")
 stage('push image') {
 
  
-docker.withRegistry('https://registry.hub.docker.com', 'DOCKERHUB2') {
+docker.withRegistry('https://registry.hub.docker.com', 'DOCKERHUB VENKY') {
 
  
 app.push("latest")
