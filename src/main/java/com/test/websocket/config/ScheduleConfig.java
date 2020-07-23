@@ -13,7 +13,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @Configuration
 @EnableAsync
-@EnableScheduling
+@EnableSchedulings
 public class ScheduleConfig {
 
     @Bean
