@@ -10,7 +10,7 @@ checkout scm
 }
 
  
-stage('build') {
+stage('build' {
 
  
 sh '''
